@@ -9,6 +9,14 @@ pipeline {
                 sh 'make check || true' 
                 sh 'echo Hello Zulu' 
             }
+            }
+            steps {
+                sh 'echo Hello Zulu1'
+            }
+        }
+            steps {
+                sh 'ls -ltr /'
+            }
         }
     }
 }
