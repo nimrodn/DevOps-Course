@@ -13,10 +13,7 @@ pipeline {
             steps {
                 sh 'echo Hello Zulu1'
             }
-        }
-            steps {
-                sh 'ls -ltr /'
-            }
+          }
         }
     }
 }
